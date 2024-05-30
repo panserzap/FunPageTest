@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Celsius is Better Than Fahrenheit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animate__animated animate__bounce">Why Celsius is Better Than Fahrenheit</h1>
+            <p>Discover the advantages of using Celsius over Fahrenheit.</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Original content -->
+        <section id="introduction">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Understanding Temperature Scales</h2>
+                <p>Celsius and Fahrenheit are two different scales for measuring temperature. Let's explore their origins and principles.</p>
+                <div class="visual-aid">
+                    <img src="images/celsius-vs-fahrenheit.png" alt="Celsius and Fahrenheit Comparison">
+                </div>
+            </div>
+        </section>
+
+        <section id="science">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeIn">The Science Behind Celsius</h2>
+                <p>Celsius is based on the metric system, making it more logical and easier to use in scientific contexts. Here's why:</p>
+                <ul>
+                    <li>Directly related to the metric system used globally.</li>
+                    <li>Easy conversion with metric units, such as liters of water.</li>
+                </ul>
+                <div class="visual-aid">
+                    <img src="images/scientific-applications.png" alt="Scientific Applications">
+                </div>
+            </div>
+        </section>
+
+        <section id="everyday-use">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Celsius in Daily Life</h2>
+                <p>Using Celsius in everyday situations offers practical advantages:</p>
+                <ul>
+                    <li>0°C is freezing, 100°C is boiling - simple and intuitive.</li>
+                    <li>More straightforward for gauging weather conditions.</li>
+                </ul>
+                <div class="interactive-element">
+                    <label for="temp">Enter Temperature:</label>
+                    <input type="number" id="temp" name="temp" placeholder="Temperature">
+                    <select id="scale">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </select>
+                    <button onclick="convertTemperature()">Convert</button>
+                    <p id="result"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="global-adoption">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Celsius Around the World</h2>
+                <p>Celsius is the standard in most countries around the globe. Here's a visual representation:</p>
+                <div class="visual-aid">
+                    <img src="images/global-adoption.png" alt="Global Adoption of Celsius">
+                </div>
+            </div>
+        </section>
+
+        <section id="case-studies">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Real-Life Examples</h2>
+                <p>Learn from scientists, meteorologists, and international travelers who prefer Celsius:</p>
+                <div class="case-study">
+                    <img src="images/scientist.jpg" alt="Scientist">
+                    <p>"Celsius makes scientific calculations simpler and more consistent." - Dr. Jane Doe</p>
+                </div>
+                <div class="case-study">
+                    <img src="images/meteorologist.jpeg" alt="Meteorologist">
+                    <p>"Weather forecasting is more straightforward with Celsius." - John Smith</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slideshow container -->
+        <section id="slides" class="slideshow-container">
+            <!-- Slide 1 -->
+            <div class="mySlides fade">
+                <div class="container">
+                    <h2>Celsius: Metric Marvel</h2>
+                    <p>The globally recognized standard for temperature measurement.</p>
+                    <h2>Fahrenheit: Imperial Anomaly</h2>
+                    <p>A quirky holdover from an older system.</p>
+                    <p>Why did the physicist prefer Celsius over Fahrenheit?</p>
+                    <div class="visual-aid">
+                        <img class="smaller-image" src="images/metric-marvel.jpg" alt="Celsius: Metric Marvel">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="mySlides fade">
+                <div class="container">
+                    <h2>A Tale of Two Temperatures</h2>
+                    <h3>Celsius</h3>
+                    <p>Developed by Anders Celsius in 1742 based on the freezing and boiling points of water.</p>
+                    <h3>Fahrenheit</h3>
+                    <p>Created by Daniel Gabriel Fahrenheit in 1724 using brine and body temperature as reference points.</p>
+                    <div class="visual-aid">
+                        <img src="images/tale-of-two-temperatures.png" alt="A Tale of Two Temperatures">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="mySlides fade">
+                <div class="container">
+                    <h2>The Science Behind the Scales</h2>
+                    <p><strong>Definition and Scale Differences:</strong> Celsius uses a 0-100 scale for the freezing and boiling points of water while Fahrenheit uses a 32-212 scale.</p>
+                    <p><strong>Scientific Accuracy:</strong> Celsius aligns with the metric system making scientific calculations simpler and more accurate.</p>
+                    <div class="visual-aid">
+                        <img src="images/science-behind-scales.png" alt="The Science Behind the Scales">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="mySlides fade">
+                <div class="container">
+                    <h2>Celsius Around the World</h2>
+                    <p><strong>Countries Using Celsius:</strong> Most countries including all of Europe, Asia, Africa, and South America use Celsius.</p>
+                    <p><strong>Fahrenheit Holdouts:</strong> Only a few countries, primarily the United States, use Fahrenheit.</p>
+                    <p><strong>Standardization Benefits:</strong> Celsius' alignment with the metric system simplifies international communication and scientific research.</p>
+                    <div class="visual-aid">
+                        <img src="images/celsius-around-world.png" alt="Celsius Around the World">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="mySlides fade">
+                <div class="container">
+                    <h2>Practicality in Daily Life</h2>
+                    <p><strong>Ease of Use in Daily Life:</strong> Celsius is straightforward with 0°C as freezing and 100°C as boiling.</p>
+                    <p><strong>Examples in Cooking:</strong> Celsius provides clearer guidelines for recipes.</p>
+                    <p><strong>Weather Reports:</strong> More intuitive for understanding temperature variations.</p>
+                    <div class="visual-aid">
+                        <img src="images/practicality-daily-life.png" alt="Practicality in Daily Life">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="mySlides fade">
+                <div class="container">
+                    <h2>Fun Facts and Comparisons</h2>
+                    <p><strong>Boiling Point:</strong> In Celsius, water boils at a nice round 100°C. In Fahrenheit, it's an awkward 212°F.</p>
+                    <p><strong>Freezing Point:</strong> Celsius gives us 0°C, an easy-to-remember freezing point. Fahrenheit gives us 32°F.</p>
+                    <p><strong>Intuitive Scaling:</strong> Celsius scales directly with the physical properties of water, making it more intuitive.</p>
+                    <div class="visual-aid">
+                        <img src="images/fun-facts-comparisons.png" alt="Fun Facts and Comparisons">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="mySlides fade">
+                <div class="container">
+                    <h2>Wrapping Up</h2>
+                    <p><strong>Summary of Key Points:</strong> Scientific accuracy, global usage, and everyday practicality make Celsius superior.</p>
+                    <p>Join the majority of the world and embrace the logical choice – Celsius!</p>
+                    <p>Because it's a 'degree' easier to understand!</p>
+                    <div class="visual-aid">
+                        <img src="images/wrapping-up.png" alt="Wrapping Up">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+        
+        <section id="call-to-action">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Join the Celsius Movement</h2>
+                <p>Start using Celsius and help spread the word!</p>
+                <a href="game.html" class="playful-button">Test Your Knowledge</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
